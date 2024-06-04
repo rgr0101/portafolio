@@ -27,28 +27,28 @@ const Navbar = () => {
                     <ul>
                         <li>
                             <a href='#' className='menu-item'>
-                                Home
+                                Inicio
                             </a>
                         </li>
                         <li>
-                            <a href='#' className='menu-item'>
+                            <a href='#skills' className='menu-item'>
                                 Skills
                             </a>
                         </li>
                         <li>
-                            <a href='#' className='menu-item'>
-                                Experience
+                            <a href='#experience' className='menu-item'>
+                                Experiencia
                             </a>
                         </li>
                         <li>
-                            <a href='#' className='menu-item'>
-                                Contact
+                            <a href='#contact' className='menu-item'>
+                                Contacto
                             </a>
                         </li>
 
-                        <button className='contact-btn' onClick={() => {}}>
-                            Hire Me
-                        </button>
+                        <a className='contact-btn' href="https://www.youtube.com/watch?v=G1KkTgfKrY0" target="blank">
+                            Descargar CV
+                        </a>
                     </ul>
 
                     <button className='menu-btn' onClick={(toggleMenu)}>

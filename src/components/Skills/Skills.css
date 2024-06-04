@@ -4,6 +4,36 @@
 }
 
 .skills-container h5 {
+    color: #fff;
+}
+
+/*
+.skills-container::after,
+.skills-container::before {
+    content: " ";
+    width: 28;
+    height: 28;
+    border-radius: 28.125rem;
+    background-color: transparent;
+    position: absolute;
+    z-index: -1;
+    backdrop-filter: blur(225px) !important;
+}
+
+.skills-container::after {
+    top: -3rem;
+    left: -5rem;
+    backdrop-filter: blur(225px);
+}
+
+.skills-container::before {
+    bottom: 0rem;
+    right: 0rem;
+    backdrop-filter: blur(225px);
+}
+*/
+
+.skills-container h5 {
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 3.5rem;
@@ -24,4 +54,54 @@
 
 .skills-info {
     flex: 1;
+}
+
+@media (max-width: 1025px) {
+    .skills {
+        padding: 1rem;
+    }
+
+    .skils,
+    .skills-content {
+        grid-gap: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .skills-content {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .skills,
+    .skills-info {
+        width: 100%;
+    }
+
+    .skills-container h5 {
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+
+    .skills-container::after,
+    .skills-container::before {
+        width: 8rem;
+        height: 18rem;
+    }
+
+    .skills {
+        padding: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .skills-container {
+        padding: 0;
+    }
+    
+    .skills {
+        gap: 2rem;
+        padding: 0;
+    }
+
 }

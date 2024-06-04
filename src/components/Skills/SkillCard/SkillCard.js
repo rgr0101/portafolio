@@ -1,4 +1,3 @@
-import React, { useState }  from "react";
 import "./SkillCard.css";
 
 const SkillCard = ({title, iconUrl, isActive, onClick}) => {

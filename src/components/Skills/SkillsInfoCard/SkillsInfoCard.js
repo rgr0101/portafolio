@@ -1,25 +1,31 @@
-import React  from "react";
+import React from "react";
 import "./SkillsInfoCard.css";
 
-const SkillsInfoCard = ({title, iconUrl, isActive, onClick}) => {
-
+const SkillsInfoCard = ({ heading, skills }) => {
     return (
         <>
-            <div
-                className={`skill-card ${isActive ? "active" : ""}`}
-                onClick={() => onClick()}
-            >
-                <div className="skill-icon">
-                    <img src={iconUrl} alt={title} />
+            <div className="skills-info-card">
+                <h6>{heading}</h6>
+
+                <div className="skills-info-content">
+                    {skills.map((item, index) => {
+                        return (
+                            <React.Fragment key={`skill_${index}`}>
+                                <div className="skill-info">
+                                    <p>{item.skill}</p>
+                                    <p className="percentage">{item.percentage}</p>
+                                </div>
+
+                                <div className="skill-progress-bg">
+                                    <div className="skill-progress" style={{ width: item.percentage }}></div>
+                                </div>
+                            </React.Fragment>
+                        );
+                    })}
                 </div>
-
-                <span>{title}</span>
-
             </div>
         </>
     );
-}
+};
 
 export default SkillsInfoCard;
-
-// 40:55

@@ -6,7 +6,7 @@ const Hero = () => {
 
     useEffect(() => {
         const typewriter = new Typewriter("#typewriter", {
-            strings: ["web developer", "student"],
+            strings: ["desarrollador web.", "programador."],
             autoStart: true,
             loop: true,
             delay: 100,
@@ -18,13 +18,13 @@ const Hero = () => {
 
     return (
         <>
-            <section className='hero-container'>
+            <section className='hero-container' id="inicio">
                 <div className="hero-content">
                     <h2>
-                        <p>Hi, Im Roger a  <strong id='typewriter'>web developer </strong></p>
+                        <p>Hola, soy Roger un <strong id='typewriter'>desarrolador web. </strong></p>
                     </h2>
                     <p>
-                        Passionate Developer | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, veritatis
+                        Desarrollador apasionado con una firme determinación de construir una carrera profesional excepcional.
                     </p>
                 </div>
             </section>

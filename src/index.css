@@ -1,9 +1,13 @@
 :root {
-    --colorBackgroung: #1B2430;
+    --colorBackgroung: #1b2430;
     --colorFontNav: #fff;
-    --coloBtnHire: #8FD6E1;
-    --coloSecBtnHire: #1597BB;
-    --colorNavMobile: #27374D;
+    --coloBtnHire: #8fd6e1;
+    --coloSecBtnHire: #1597bb;
+    --colorNavMobile: #27374d;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-margin: 2rem;
 }
 
 body {
@@ -14,9 +18,41 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: var(--colorBackgroung);
+    scroll-margin-top: 5rem !important;
+
 }
 
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
         monospace;
+}
+
+/* Estiliza la barra de desplazamiento completa */
+::-webkit-scrollbar {
+    width: 10px; /* Ancho de la barra de desplazamiento */
+    height: 12px; /* Altura de la barra de desplazamiento para contenedores horizontales */
+}
+
+/* Estiliza el fondo de la barra de desplazamiento */
+::-webkit-scrollbar-track {
+    background: #8fd6e1;
+    border-radius: 10px;
+}
+
+/* Estiliza el pulgar de la barra de desplazamiento (la parte que se mueve) */
+::-webkit-scrollbar-thumb {
+    background: #27374d;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+
+/* Estiliza el pulgar cuando el ratón pasa por encima */
+::-webkit-scrollbar-thumb:hover {
+    background: #1b2430;
+}
+
+/* Opcional: Estiliza el botón de incrementación/decrementación de la barra de desplazamiento */
+::-webkit-scrollbar-button {
+    background: #fff;
+    display: none; /* Oculta los botones */
 }

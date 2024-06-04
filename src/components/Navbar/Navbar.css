@@ -44,7 +44,9 @@
     color: var(--colorFontNav);
     position: relative;
     cursor: pointer;
+    letter-spacing: 1px;
 }
+
 
 .menu-item::before {
     content: " ";
@@ -87,6 +89,7 @@
     cursor: pointer;
     outline: 1.5px solid transparent;
     transition: all 0.2s ease;
+    text-decoration: none;
 }
 
 .contact-btn:hover {

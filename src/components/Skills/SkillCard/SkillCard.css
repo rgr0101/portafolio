@@ -16,6 +16,20 @@
         var(--coloBtnHire) 0%,
         var(--coloSecBtnHire) 100%
     );
+    transform: scale(1.1);
+}
+
+.skill-card.active .skill-icon img {
+    animation: giroInfinito 2s linear infinite;
+}
+
+@keyframes giroInfinito {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 .skill-card span {
@@ -67,6 +81,4 @@
     .skill-card span {
         font-size: 0.9rem;
     }
-
-    
 }
