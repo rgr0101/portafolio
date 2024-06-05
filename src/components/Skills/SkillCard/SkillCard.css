@@ -16,6 +16,9 @@
         var(--coloBtnHire) 0%,
         var(--coloSecBtnHire) 100%
     );
+}
+
+.skill-card:hover {
     transform: scale(1.1);
 }
 
@@ -49,7 +52,7 @@
     border: 1.5px solid var(--coloBtnHire);
     position: absolute;
     top: -1rem;
-    left: -1rem;
+    right: -1rem;
 }
 
 .skill-icon img {

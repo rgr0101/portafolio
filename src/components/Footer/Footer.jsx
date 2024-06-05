@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = () => {
   return (
     <div className="footer">
-        ⓒ 2024 Roger Pacheco
+        ⓒ 2024 | Roger Pacheco
     </div>
   )
 }

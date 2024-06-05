@@ -3,10 +3,11 @@ export const SKILLS = [
         title: "Frontend",
         icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABwElEQVR4nO1ZzU7DMAwOl12AV+DnVfh5KMZhF4Y0TYonNCYei0PscYHZXBAnhnaASkNFmVRUur9m6doi8km5WLXjL1/sRKlSAQEBAbUFDEdHmnigSQRI4jKHtnMi33bx6XCj5Hsk54AyLjtxmCfy1kM+dUr+5oGP65A8pEg4KWGlywS56N6/7GqU5hrbzN4ypqE80DKmMRcXpZ87QHbP983rnrV3hsP9Vba03RedTFwg4dzOgPz1S0KUpk0MUC5X2RJ7EQpAJq7NKT+BGux7WDACAfiLCqiKAYFAxYCgQAoa+RpIopxFFwFx29E/yvoUqoBD8smh9unqr+d9CiXg1fp8fVSRBIr2h0AghaAAhS1U/y5UFYHI8xyomgC3XU5iTXxVKwK+CATUf1dA29skykeuGph9t/xmWfpdKI7jHU08cepCxJOa3Ua57afA2i4WuXSupdDI08TJ95HK+4GLEmV4mtsRiJ9/HA2fqIqgUc42elrUxHepPTmygcpUomVMwz7v27lT9TTIHcA+ZWuUd5eC3epAGffM44HTKthVrwUJlLHzD44ElnXyiyld2NseGnk6m5N44LzyAQEBAapMfAO521Hog2W6wgAAAABJRU5ErkJggg==",
         skills: [
-            { skill: "HTML", percentage: "70%" },
+            { skill: "HTML", percentage: "90%" },
             { skill: "CSS", percentage: "80%" },
-            { skill: "Boostrap", percentage: "90%" },
-            { skill: "JavaScript", percentage: "60%" },
+            { skill: "Boostrap", percentage: "95%" },
+            { skill: "JavaScript", percentage: "70%" },
+            { skill: "jQuery", percentage: "70%" },
             { skill: "ReactJS", percentage: "80%" },
         ],
     },
@@ -15,10 +16,10 @@ export const SKILLS = [
         icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEEElEQVR4nO1aTYwURRQuT2gMaKJyEA7rhXjTiwQkAUK4uOFCEDy4xkQkMRBCDAkJFwkh/O52VQ8YzxASYgxHD4qePahkF3Ze9e6Epd7rXfDGvybLgkNqhM1U7czOdE31TrepL6lb9zfvff2q3s8UYwEBAQEBAQEBHVC5Nr1aAJ7kgNeExEdCUr1Yq2HTmLYxmkxXMZ/gEvcJwH/672R3i0v8mwN95cV5Ielwvx1yFgLwUE/OVxL8UAA+7bcjzgvwaSTVOmcBuKRfzdCiuwLUF6empl5jBYO2KQbcLYDuWVFwxYmwUrv9Fgd80kT0r0jUZlZw8CpusQR4MjJx683MRCJRm61w+oOVBALoqml7ujEzSZzgDlNJusxKAm1rs+3al8wkMdBOa///wEoCbashANDOzCRxEIDMCAD6TYtStCWq6v2cImB6qDQFTxX3exeAA54oUcFz3X8EyHRvaSJA0sUlOARxWhMXbQmJx08nyfIlEIBCGmQlQYgAWbItwCdwg17e+PxkAdxmCAB4wZeBhrGAouk3RGEEGB7761UBOPmcZDaPVviIUi83uOeNxUeFEeCFCBGowbMT+A7LAUKq9VaqvVEoAXqBFk2Lp0Vs9wyX9LW1zS75+AB9F4AD7ZoPbcDJdiJwid+bAtCBVluQS3osgD5ZcgF4FfdzwHFdalZqtRXdvKMNFRLnzFpdfdSSH0g1P9c8wNTvmCUvznUrghcBovGb71kGHHdy/r8DdKDVzNFKs4+jNH1lnitRA40v7yCCn26wih9nqQNaO49z7X58QZqV+Hu3nJ1EWPJCKG48axqqp7G8ip8uYuQxc5vQt+0/xELuGHCoEALEjeGpw1cCvGI59Vm7Z9tFQiTV9r4LIABnsjpfr9df4pLuNL83ImfWZD9ccaaUAoxMqHct7rtalFIKEDtsAS7pcyv8f8rs/CJbQJ8nZnpNN+UmgMtBxSV+Zz5LR5nHA/Z5CpWNv/MAz3eKLi/tcJY0yIH+NL4QqMEsnN0WRJVabRlzRewwD+imEFrYAVJ9eOzGygVcPRRCXhA7DkQ6lcKNOwdm/p9qzeNeCntB3MNEaLFmqFMH6KMZ8oK4x5FYu3Z4sQ7Qhms7fE7OvCGAfuSA00LiN8wFcU4zQT30MENbrffBa/4GnTHqgPH0g8IIIMwrdrP6UGSe4acQSvK5IJHHEDSXCxLCuiKjc3dRx+C5XJGpWJekGiJUcQsrODjQVjt96kPRiUxI+sXK2fe4xC/FqHqdFQzaJiFxDwe6bzVMPzuTRlKtK/NFSR3BUTVd25OyHPBQvx1xXVGiDvbk/Avoi8f6AnK/Hep+6VSLe5hPRJPpKj0Z5pJGucSH/XfSWkAPtG3axnMJve3V+YCAgICAgAD2f8Qz57Y3flX85+8AAAAASUVORK5CYII=",
         skills: [
             { skill: "Laravel", percentage: "70%" },
-            { skill: "ASP.NET", percentage: "70%" },
+            { skill: "ASP.NET", percentage: "75%" },
             { skill: "Node.js", percentage: "40%" },
-            { skill: "SpringBoot", percentage: "60%" },
-            { skill: "SQL", percentage: "80%" },
+            { skill: "SpringBoot", percentage: "65%" },
+            { skill: "SQL", percentage: "85%" },
         ],
     },
     {
@@ -29,7 +30,6 @@ export const SKILLS = [
             { skill: "Git/Github", percentage: "90%" },
             { skill: "Visual Studio", percentage: "80%" },
             { skill: "Visual Studio Code", percentage: "90%" },
-            { skill: "JIRA", percentage: "60%" },
         ],
     },
     {

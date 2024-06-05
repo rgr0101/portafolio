@@ -34,7 +34,7 @@ form button {
     border-radius: 0.6rem;
     border: 1.5px solid var(--coloBtnHire);
     padding: 0.7rem;
-    transition: all0.2s ease;
+    transition: all 0.3s ease;
     cursor: pointer;
     background: linear-gradient(
         90deg,
@@ -45,7 +45,7 @@ form button {
 
 form button:hover {
     color: var(--coloBtnHire);
-    background: transparent;
+    background: none;
 }
 
 @media (max-width: 450px) {

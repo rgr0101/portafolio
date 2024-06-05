@@ -14,6 +14,8 @@ function ContactMe() {
                 />
                 <ContactInfoCard iconUrl="./github.svg" text="https://github.com/rgr0101"
                 />
+                <ContactInfoCard iconUrl="./linkedin.svg" text="www.linkedin.com/in/rogerpach"
+                />
 
             </div>
 
