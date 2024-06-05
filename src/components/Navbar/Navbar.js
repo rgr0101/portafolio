@@ -46,7 +46,7 @@ const Navbar = () => {
                             </a>
                         </li>
 
-                        <a className='contact-btn' href="https://www.youtube.com/watch?v=G1KkTgfKrY0" target="blank">
+                        <a className='contact-btn' href="https://drive.google.com/file/d/1qLv2aCK-15MYAwl7yScIAgSLOv_Ck3d3/view?usp=sharing" target="blank">
                             Descargar CV
                         </a>
                     </ul>
