@@ -51,7 +51,7 @@
     50% {
         transform: translateY(-70px);
         transform: translateX(-70px);
-        background-color: #750E21;
+        background-color: #d1a836;
     }
     100% {
         transform: translateY(0);
