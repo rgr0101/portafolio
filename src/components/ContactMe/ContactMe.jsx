@@ -12,9 +12,9 @@ function ContactMe() {
             <div style={{ flex: 1}}>
                 <ContactInfoCard iconUrl="./email.svg" text="rogerpy00@gmail.com"
                 />
-                <ContactInfoCard iconUrl="./github.svg" text="#https://github.com/rgr0101"
+                <ContactInfoCard iconUrl="./github.svg" text="https://github.com/rgr0101"
                 />
-                <ContactInfoCard iconUrl="./linkedin.svg" text="#https://linkedin.com/in/rogerpach"
+                <ContactInfoCard iconUrl="./linkedin.svg" text="https://linkedin.com/in/rogerpach"
                 />
 
             </div>
